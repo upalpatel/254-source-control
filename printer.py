@@ -5,7 +5,5 @@ fh = open(argv[1],'r')
 lines = list(fh)
 fh.close()
 
-print (lines[0])
-print (lines[1])
-print (lines[2])
-print (lines[3])
+for l in lines:
+	print(l)
